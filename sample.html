@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+	<!-- Обычная функция создания блока со свойствами, для проверки работоспособности вставки -->
+	<script>
+		function div(parentId){
+			document.getElementById(parentId).innerHTML = '<div class="yyy" style="background:red;">bghhjhjb</div>';
+		}
+	</script>
+	
+	<!-- Область для написания HTML + JS кода -->
+	<script type="text/components">
+	  <div id="test">{{div("test")}}</div>
+	</script>
+	
+	<script src="scriptIn.js"></script>
+  </body>
+</html>
